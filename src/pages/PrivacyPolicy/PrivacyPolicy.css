@@ -1,0 +1,42 @@
+.privacy-policy {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  padding: 10rem;
+}
+
+.privacy-policy-paragraph p {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.privacy-policy-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.privacy-policy-content p {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .privacy-policy {
+    padding: 5rem;
+  }
+
+  .privacy-policy-paragraph p {
+    font-size: 16px;
+  }
+
+  .privacy-policy-content p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .privacy-policy {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}

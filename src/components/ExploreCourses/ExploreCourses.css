@@ -1,0 +1,58 @@
+.explore-courses {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.explore-courses h1 {
+  color: #fff;
+  font-weight: 600;
+}
+
+.explore-courses-text {
+  max-width: 60%;
+  font-size: 1.1rem;
+}
+
+.explore-menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+  margin: 20px 0;
+  overflow-x: scroll;
+}
+
+.explore-menu-list::-webkit-scrollbar {
+  display: none;
+}
+
+.explore-menu-list-item img {
+  width: 7.5vw;
+  min-width: 80px;
+  cursor: pointer;
+  border-radius: 30%;
+  transition: 0.2s;
+}
+
+.explore-menu-list-item p {
+  margin-top: 10px;
+  color: #fff;
+  font-size: max(1.1vw, 16px);
+  cursor: pointer;
+}
+
+.explore-courses hr {
+  margin: 10px 0;
+  height: 2px;
+  background-color: #2c2b2b;
+  border: none;
+}
+
+@media (max-width: 1050px) {
+  .explore-courses-text {
+    max-width: 100%;
+    font-size: 14px;
+  }
+}
